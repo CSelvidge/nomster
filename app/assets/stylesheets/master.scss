@@ -8,7 +8,7 @@
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 15px;
   padding: 20px;
 }
@@ -40,3 +40,14 @@ body {
   background-color: #16d6e0 !important;
 
 }
+
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+
+#map {
+      height: 300px;
+    }
