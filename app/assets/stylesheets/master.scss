@@ -31,7 +31,7 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #E3E85A;
+  color: #b042f4;
   font-family: 'playfair_displaybold';
   letter-spacing: 0.6px;
 }
@@ -95,4 +95,20 @@ blockquote p {
 .img-fluid {
   max-width: 250;
   max-height: auto; 
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+
+.modal-title {
+    margin: 0 auto;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
 }
