@@ -49,7 +49,7 @@
       </div>
     <% if place.photos.present? %>
       <% photo = place.photos.last %>
-      <%= image_tag photo.picture.url %>
+      <%= image_tag photo.picture.url, :size => "300x300"  %>
     <% end %>
     </div>
   <% end %>

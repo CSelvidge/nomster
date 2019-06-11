@@ -53,11 +53,15 @@
 
 <div class="clear"></div>
 
+
 <h1>Photos</h1>
-  <% @place.photos.each do |photo| %>
-    <%= image_tag photo.picture.url %>
-    <%= photo.caption %>
-  <% end %>
+  <div class = "img.fluid">
+    <% @place.photos.each do |photo| %>
+      <%= image_tag(photo.picture.url, :size => "300x300") %>
+      <%= photo.caption %>
+    <% end %>
+  </div>
+
 <br />
 
 
